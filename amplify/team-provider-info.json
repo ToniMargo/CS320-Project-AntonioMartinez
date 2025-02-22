@@ -10,6 +10,11 @@
       "StackName": "amplify-cs320projectantoniom-dev-3ecc9",
       "StackId": "arn:aws:cloudformation:us-west-1:730335528058:stack/amplify-cs320projectantoniom-dev-3ecc9/6c4ecf30-d385-11ef-9910-06044a35e627",
       "AmplifyAppId": "dcsppo8o5q9m1"
+    },
+    "categories": {
+      "auth": {
+        "cs320projectantoniom609045ab": {}
+      }
     }
   }
 }
