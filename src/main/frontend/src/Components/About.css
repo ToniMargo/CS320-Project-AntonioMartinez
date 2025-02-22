@@ -1,0 +1,22 @@
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    display: block;
+    max-width: 75%;
+    height: auto;
+    margin: 20px auto;
+}
