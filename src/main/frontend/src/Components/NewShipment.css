@@ -9,29 +9,41 @@ h1 {
     margin-bottom: 20px;
 }
 
-.form-group {
-    margin-bottom: 15px;
+/* Style the form and its elements */
+.new-shipment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-label {
-    display: block;
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
     margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="date"],
-textarea {
-    width: 100%;
+/* Set a uniform width for date picker and quantity input */
+.form-group input[type="date"],
+.form-group input[type="number"] {
+    width: 250px;  /* Adjust this value as desired */
     padding: 8px;
     box-sizing: border-box;
 }
 
-button {
-    padding: 10px 15px;
+/* Optionally, set a width for the select element, too */
+.form-group select {
+    width: 250px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
     border: 1px solid black;
     background: none;
     cursor: pointer;
-}
-button:hover {
-    background: #f0f0f0;
 }

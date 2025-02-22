@@ -3,8 +3,24 @@
     max-width: 800px;
     padding: 20px;
     font-family: sans-serif;
+    text-align: center; /* Center headings and container content */
 }
 
 h1 {
     margin-bottom: 10px;
+}
+
+/* Center the table on the page */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Center text in table cells and add basic styling */
+table th,
+table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
