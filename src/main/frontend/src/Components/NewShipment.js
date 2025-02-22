@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './NewShipment.css';
 
+// This component allows users to create a new shipment by selecting a product from the inventory
 function NewShipment() {
   const [products, setProducts] = useState([]);
   const [form, setForm] = useState({
@@ -9,6 +10,7 @@ function NewShipment() {
     quantity: ''
   });
 
+  // Initialize the form with today's date
   useEffect(() => {
     // Fetch available products from inventory
     fetch('http://localhost:8080/inventory')
@@ -22,10 +24,12 @@ function NewShipment() {
       .catch(err => console.error(err));
   }, []);
 
+  // Set the shipment date to today
   const handleChange = (e) => {
     setForm({...form, [e.target.name]: e.target.value});
   };
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
 

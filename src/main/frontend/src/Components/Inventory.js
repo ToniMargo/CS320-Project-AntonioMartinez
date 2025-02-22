@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Inventory.css';
 
 function Inventory() {
@@ -34,6 +35,9 @@ function Inventory() {
         ))}
         </tbody>
       </table>
+      <div className="manage-link">
+        <Link to="/inventory-manage">Manage Inventory</Link>
+      </div>
     </div>
   );
 }

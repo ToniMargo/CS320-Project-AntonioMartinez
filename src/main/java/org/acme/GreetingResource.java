@@ -3,6 +3,7 @@ package org.acme;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 
+// UNUSED COMPONENT - FOR DEMONSTRATION PURPOSES ONLY
 @Path("/hello")
 public class GreetingResource {
 

@@ -11,6 +11,7 @@ function Navbar() {
         <li><Link to="/about">About</Link></li>
         <li><Link to="/login">Login</Link></li>
         <li><Link to="/inventory">Inventory</Link></li>
+        <li><Link to="/inventory-manage">Manage Inventory</Link></li>
         <li><Link to="/shipments">Shipments</Link></li>
         <li><Link to="/new-shipment">New Shipment</Link></li>
       </ul>

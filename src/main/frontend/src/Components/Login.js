@@ -4,6 +4,9 @@ import '@aws-amplify/ui-react/styles.css';
 import './Login.css';
 import { useNavigate } from 'react-router-dom';
 
+// Custom sign-in form component
+
+// Custom footer component for the sign-in page
 const CustomSignInFooter = () => {
   const navigate = useNavigate();
   return (
@@ -15,6 +18,7 @@ const CustomSignInFooter = () => {
   );
 };
 
+// Main Login component
 function Login() {
   return (
     <div className="login-container">

@@ -7,6 +7,7 @@ import Login from './Components/Login';
 import Inventory from './Components/Inventory';
 import Shipments from './Components/Shipments';
 import NewShipment from './Components/NewShipment';
+import InventoryManage from './Components/InventoryManage';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Components/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -27,6 +28,7 @@ root.render(
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/shipments" element={<Shipments />} />
         <Route path="/new-shipment" element={<NewShipment />} />
+        <Route path="/inventory-manage" element={<InventoryManage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

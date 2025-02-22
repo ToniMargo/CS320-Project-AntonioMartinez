@@ -3,6 +3,7 @@ import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
+// UNUSED COMPONENT - FOR DEMONSTRATION PURPOSES ONLY
 @Entity
 @Table(name = "user_names")
 public class UserName extends PanacheEntity {

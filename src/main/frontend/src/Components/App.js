@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
+// This is the main application component that serves as the entry point for the app
+// It includes a welcome message, an image, and links to other parts of the application
+
 function App() {
   return (
     <div className="container">

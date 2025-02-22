@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css';
 
+// This component displays the "about" information for the application
+
 function About() {
   return (
     <div className="container">

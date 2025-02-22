@@ -7,15 +7,21 @@ import jakarta.ws.rs.core.Response;
 import java.time.LocalDate;
 import java.util.List;
 
+/**
+ * This is a REST resource class that provides endpoints for managing shipments.
+ * It uses JAX-RS annotations to define the endpoints and HTTP methods.
+ */
 @Path("/shipments")
 public class ShipmentResource {
 
+    // Endpoint to retrieve all shipments
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<Shipment> getAllShipments(){
         return Shipment.listAll();
     }
 
+    // Endpoint to create a new shipment
     @POST
     @Transactional
     @Consumes(MediaType.APPLICATION_JSON)

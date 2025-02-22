@@ -6,6 +6,7 @@ import jakarta.ws.rs.core.MediaType;
 
 import java.util.List;
 
+// UNUSED COMPONENT - FOR DEMONSTRATION PURPOSES ONLY
 @Path("/user")
 public class UserNameResource {
     // Create
